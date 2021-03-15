@@ -1,0 +1,158 @@
+h1 {color: red;
+    text-align: center;
+    font-size: 50px;
+    }
+
+.def
+{width: 100%;
+font-size: 25px;
+color: red;}
+
+
+#helyek
+{margin-top: 30px;
+width: 100%;
+table-layout: fixed;
+}
+
+.hely_kep
+{width: 100%;}
+
+.leir_hely
+{width: 20%;
+}
+
+.lopi
+{text-align: center;}
+
+
+#filmek
+{margin-top: 30px;
+width: 100%;
+table-layout: fixed;
+}
+
+.film_kep
+{width: 100%;}
+
+.leir_film
+{width: 20%;}
+
+#tudomany
+{margin-top: 30px;
+width: 100%;
+table-layout: fixed;
+}
+
+.tud_kep
+{width: 100%;}
+
+.leir_tud
+{width: 12%;}
+
+
+
+#idézetek1
+
+{text-align: justify;
+    font-style: italic;
+    text-justify: inter-word;
+    font-size: 20px;
+    width: 70%;
+margin-left:250px;}
+
+
+
+
+#versek
+{background-image: url('/img/kek_vektor.jpg');
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;}
+
+#idezetek
+{background-image: url('/img/kek_vektor3.jpg');
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;}
+
+
+
+.tel
+{text-align: center;}
+
+.lato
+{text-align: center;
+    font-style: italic;
+font-size: 20px;}
+
+.szerzo
+{text-align: center;
+    font-size: 25px;}
+
+    .halott
+{text-align: center;
+    font-style: italic;
+font-size: 20px;}
+
+.magam
+
+{text-align: center;
+    font-style: italic;
+font-size: 20px;}
+
+
+.duna
+{text-align: center;
+    font-style: italic;
+font-size: 20px;}
+
+.tel
+{text-align: center;
+    font-style: italic;
+font-size: 20px;}
+
+.jo
+{text-align: center;
+    font-style: italic;
+font-size: 20px;}
+
+.good
+
+{text-align: center;
+    font-style: italic;
+font-size: 20px;}
+
+
+
+
+#versek1
+
+{position: absolute;
+top: 180px;
+left: 30px;}
+
+
+#versek3
+
+{position: absolute;
+top: 180px;
+left: 1100px;}
+
+.lenni
+
+{text-align: center;
+    font-style: italic;
+font-size: 20px;}
+
+.tubi
+
+{text-align: center;
+    font-style: italic;
+font-size: 20px;}
+
+
+
+
+
+
