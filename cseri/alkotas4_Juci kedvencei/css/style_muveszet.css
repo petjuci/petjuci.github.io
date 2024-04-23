@@ -3,6 +3,31 @@ h1 {color: red;
     font-size: 50px;
     }
 
+.navbar ul{
+list-style-type: none;
+background-color: white;
+padding: 0px;
+margin left:80px;
+overflow: hidden;
+font-size: 30px;
+}
+
+.navbar a{color:blue;
+text-decoration: none;
+padding: 15px;
+display: block;
+text align:center;
+margin left: 100px;
+}  
+
+
+.navbar a:hover{background-color: rgb(142, 162, 162);}
+
+.navbar li{
+    float: left;
+}
+
+ 
 .def
 {width: 100%;
 font-size: 25px;
