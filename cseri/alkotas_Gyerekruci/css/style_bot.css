@@ -5,16 +5,30 @@ h1 {color: red;
     font-size: 50px;
     }
     
-    .xyz 
-
-       
-    {width: 95%;        
-    border: none;
-    font-size: xx-large;
-    }
-
-
-
+    
+    .navbar ul {
+        list-style-type: none;
+        background-color: white;
+        padding: 0px;
+        overflow: hidden;
+        font-size:40px;
+        text-align: auto;
+      }
+      
+      .navbar a {
+        color: blue;
+        text-decoration: none;
+        padding: 20px;
+        display: block;
+      }
+      
+      .navbar a:hover {
+        background-color: rgb(142, 162, 162);
+      }
+      
+      .navbar li {
+        float:left;
+      }
 
 #table1 {width: 95%;
     margin-left: 20px;
