@@ -43,3 +43,28 @@ font-size: 25px;}
     
     .urlap
     {text-align: center;}
+
+    .navbar ul {
+        list-style-type: none;
+        background-color: white;
+        padding: 0px;
+        overflow: hidden;
+        font-size:35px;
+        text-align: right;
+      }
+      
+      .navbar a {
+        color: blue;
+        text-decoration: none;
+        padding: 0px;
+        display: block;
+        margin-left: 100px;
+      }
+      
+      .navbar a:hover {
+        background-color: rgb(142, 162, 162);
+      }
+      
+      .navbar li {
+        float:left;
+      }

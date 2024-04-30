@@ -11,15 +11,16 @@ h1 {color: red;
         background-color: white;
         padding: 0px;
         overflow: hidden;
-        font-size:40px;
-        text-align: auto;
+        font-size:35px;
+        text-align: right;
       }
       
       .navbar a {
         color: blue;
         text-decoration: none;
-        padding: 20px;
+        padding: 0px;
         display: block;
+        margin-left: 100px;
       }
       
       .navbar a:hover {
@@ -79,6 +80,10 @@ img
     margin: 20px;
     box-shadow: 3px 3px 7px black;
 }
+
+.urlap
+
+{text-align: center}
 
 
 
