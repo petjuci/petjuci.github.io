@@ -2,6 +2,33 @@ h1 {color: red;
     text-align: center;
     font-size: 50px;
     }
+
+
+    .navbar ul {
+        list-style-type: none;
+        background-color: white;
+        padding: 0px;
+        overflow: hidden;
+        font-size:35px;
+        text-align: right;
+        width: 120%;
+      }
+      
+      .navbar a {
+        color: blue;
+        text-decoration: none;
+        padding: 0px;
+        display: block;
+        margin-left: 100px;
+      }
+      
+      .navbar a:hover {
+        background-color: khaki
+      }
+      
+      .navbar li {
+        float:left;
+      }
     
     table.abc {width: 95%;
         margin-left: 20px;
