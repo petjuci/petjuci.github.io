@@ -1,10 +1,10 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style_exer.css">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style_exer.css">
+  <title>Megrendelések</title>
 
 </head>
 
@@ -12,99 +12,94 @@
 
 <h1 class="megrendi">Megrendelések</h1>
 
-<table class="def">
-    <thead>
-        <tr>
-            <th><a href="/">Home</a></th>
-            <th><a href="lancok.html">Nyakláncok</a></th>
-            <th><a href="medalok.html">Medálok</a></th>
-            <th><a href="karkotok.html">Karkötők</a></th>
-            <th><a href="fulbevalok.html">Fülbevalók</a></th>
-            <th><a href="gyuruk.html">Gyűrűk</a></th>
-            <th><a href="rolam.html">Rólam</a></th>
-        </tr>
+<nav class="navbar">
+  <ul>
+
+    <li><a href="index.html">Főoldal</a></li>
+    <li><a href="fulbevalok.html">Fülbevalók</a></li>
+    <li><a href="gyuruk.html">Gyűrűk</a></li>
+    <li><a href="karkotok.html">Karkötők</a></li>
+    <li><a href="lancok.html">Láncok</a></li>
+    <li><a href="medalok.html">Medálok</a></li>
+    <li><a href="rolam.html">Rólam</a></li>
+  </ul>
+</nav>
 
 
-    </thead>
+<hr>
 
-    <tbody>
-    </tbody>
-
-    </table>
-    <hr>
-
-    <div class="urlap">
-        <form>
-          <h2>Töltsd ki az űrlapot!</h2>
-          <label for="v-nev">Add meg a vezetékneved:</label>
-          <input type="text" id="v-nev" name="v-nev" placeholder="Vezetéknév" />
-          <br />
-          <br />
-          <label for="k-nev">Add meg a keresztneved:</label>
-          <input type="text" id="k-nev" name="k-nev" placeholder="Keresztnév" />
-          <br />
-          <br />
+<div class="urlap">
+  <form>
+    <h2>Töltsd ki az űrlapot!</h2>
+    <label for="v-nev">Add meg a vezetékneved:</label>
+    <input type="text" id="v-nev" name="v-nev" placeholder="Vezetéknév" />
+    <br />
+    <br />
+    <label for="k-nev">Add meg a keresztneved:</label>
+    <input type="text" id="k-nev" name="k-nev" placeholder="Keresztnév" />
+    <br />
+    <br />
     <!--Ez így gagyi a számos oszlopoknál, ezen még csiszolni kell, 
-      hogy normális cixxám, db legyen-->      
-          <label for="c-szam">Add meg a megrendelt áru(k) cikkszámát:</label>
-          <input type="text" id="c-szam" name="c-szam" placeholder="Cikkszám" />
-          <br />
-          <br />
-          <label for="darab">Add meg a megrendelt áru(k) darabszámát:</label>
-          <input type="number" id="darab" name="darab" placeholder="Darabszám" />
-          <br>
-          <br>
-        <label for="email">Add meg az e-mail címedet:</label>
-          <input type="email" placeholder="E-mail cím..." />
-          <br />
-          <br />
-          
-          <label for="datum">Add meg a mai dátumot:</label>
-          <input type="date" />
-          <br />
-          <br />
-          <label for="ido">Add meg a pontos időt:</label>
-          <input type="time" />
-          <br>
-          <br>
-          <label for="ertekeles">Értékeld oldalunkat 1-10 ig:</label>
-        <input type="range" /> <!--Ide majd kéne egy skála is, elé, mögé -->
-          
-          
-          <div>
-            <p>Milyen célból vásárolsz? Többet is kiválaszthatsz!</p>
-            <input type="checkbox" id="Saját magamnak" name="magamnak" />
-            <label for="magamnak">Magamnak</label>
-            <br />
-    
-            <input type="checkbox" id="Másnak" name="masnak" />
-            <label for="masnak">Másnak</label>
-            <br />
-    
-            <input type="checkbox" id="Ajándéknak veszem" name="ajandek" />
-            <label for="ajandek">Ajándéknak veszem</label>
-            <br />
-    
-            <input type="checkbox" id="Mindennapi használatra veszem" name="ajandek" />
-            <label for="ajandek">Mindennapi használatra veszem</label>
-                            
-          </div>
-          <br />
-                    <div>
-       
-    
-    
-          <input type="submit" value="Beküldés" />
-        </form>
-    
-        
+      hogy normális cixxám, db legyen-->
+    <label for="c-szam">Add meg a megrendelt áru(k) cikkszámát:</label>
+    <input type="text" id="c-szam" name="c-szam" placeholder="Cikkszám" />
+    <br />
+    <br />
+    <label for="darab">Add meg a megrendelt áru(k) darabszámát:</label>
+    <input type="number" id="darab" name="darab" placeholder="Darabszám" />
+    <br>
+    <br>
+    <label for="email">Add meg az e-mail címedet:</label>
+    <input type="email" placeholder="E-mail cím..." />
+    <br />
+    <br />
+
+    <label for="datum">Add meg a mai dátumot:</label>
+    <input type="date" />
+    <br />
+    <br />
+    <label for="ido">Add meg a pontos időt:</label>
+    <input type="time" />
+    <br>
+    <br>
+    <label for="ertekeles">Értékeld oldalunkat 1-10 ig:</label>
+    <input type="range" /> <!--Ide majd kéne egy skála is, elé, mögé -->
+
+
+    <div>
+      <p>Milyen célból vásárolsz? Többet is kiválaszthatsz!</p>
+      <input type="checkbox" id="Saját magamnak" name="magamnak" />
+      <label for="magamnak">Magamnak</label>
+      <br />
+
+      <input type="checkbox" id="Másnak" name="masnak" />
+      <label for="masnak">Másnak</label>
+      <br />
+
+      <input type="checkbox" id="Ajándéknak veszem" name="ajandek" />
+      <label for="ajandek">Ajándéknak veszem</label>
+      <br />
+
+      <input type="checkbox" id="Mindennapi használatra veszem" name="ajandek" />
+      <label for="ajandek">Mindennapi használatra veszem</label>
+
     </div>
+    <br />
+    <div>
 
-    <hr>
 
-    <p class="lopi">  (l) lopyright Juci 2024.</p>
-    
-    <body style="background-color:rgb(229, 194, 217);"></body>
-    
+
+      <input type="submit" value="Beküldés" />
+  </form>
+
+
+</div>
+
+<hr>
+
+<p class="lopi"> (l) lopyright Juci 2024.</p>
+
+<body style="background-color:rgb(229, 194, 217);"></body>
+
 
 </body>
