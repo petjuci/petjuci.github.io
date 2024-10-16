@@ -25,10 +25,81 @@ font-weight: bold;
 
 
 #tanfi {
-    background-image: url('/img/html4.jpg');
+    background-image: url('/advanced/img/html1.jpg');
 background-repeat: no-repeat;
 background-size: 100%; 100%;
+height: 900px;
+color:#ffffff;
+padding: 10em 0 0 1,5em;
+margin: top 4px;
 }
+
+#tanfi h1 {
+    font-size: 350%;
+    text-transform: uppercase;
+    margin: 0;
+    text-align: center;
+}
+
+#tanfi h2 {
+    font-size: 250%;
+    font-family: 'Tourney'; Serif;
+
+}
+
+#tanfi h3 {
+    font-size: 250%;
+    text-align: right;
+font-family: 'Tourney';
+color:#fff;
+    }
+
+
+
+
+    .button
+
+    {padding: 1em;
+        background: #c13433;
+        color:#fff;
+        text-decoration: none;
+
+    }
+
+    #ada h1 {margin: 0;
+        font-size: 200%;
+        padding: 1em;
+        font-family: 'Sixtyfour convergence';
+        
+    }
+    #ada h2 {margin-top: 0;
+               
+        font-family: 'Sixtyfour convergence';
+        
+    }
+
+
+
+
+    #ada {
+margin: 0;
+    text-align: center;
+        background-color: rgb(34, 34, 144);
+        color: #fff;
+
+    }
+
+    #ada>div{
+    display: flex;
+        }
+
+
+
+
+
+
+
+
 
 
 
