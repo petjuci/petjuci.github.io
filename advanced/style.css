@@ -89,9 +89,24 @@ margin: 0;
 
     }
 
-    #ada>div{
-    display: flex;
-        }
+#krisna {     
+    display: flex; <!--Sokat kellett vele szórakozni-->
+      margin: 4em;
+    max-width:100%; <!--Nem csinálta meg-->
+
+} 
+
+#ada  a {
+    width: 33%;
+    display; block;
+}
+
+#lopi
+{
+text-align: center;   <!--Nem csinálta meg-->
+}
+     
+    
 
 
 
