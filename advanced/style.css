@@ -39,7 +39,7 @@ nav ul li a {
 
 
 #tanfi {
-    background-image: url('advanced/img/html1.jpg');
+    background-image: url('/img/html1.jpg');
     background-repeat: no-repeat;
     background-size: 100%;
     100%;
@@ -113,11 +113,6 @@ margin: top 4px;
 
 }
 
-<<<<<<< HEAD
-#ada>div {
-    display: flex;
-}
-=======
 #krisna {     
     display: flex; <!--Sokat kellett vele szórakozni-->
       margin-right: 4em; <!--Sokat kell még  vele szórakozni-->
@@ -151,4 +146,3 @@ text-align: center;   <!--Nehezen végre megcsinálta meg-->
 
 
 
->>>>>>> 02c96e23f3d4b492c9e0a4e7179108fba0fcc99d
