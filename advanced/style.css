@@ -1,31 +1,52 @@
-body {color: #333;
+body {
+    color: #333;
     font-family: 'Times New Roman', Times, serif 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-margin: 0;
-padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
-a {color: #c13433 }
+a {
+    color: #c13433
+}
 
-a:hover {color: #777;}
+a:hover {
+    color: #777;
+}
 
-a:visited {color:blueviolet}
+a:visited {
+    color: blueviolet
+}
 
-nav {display: flex;
-justify-content: space-between ;}
+nav {
+    display: flex;
+    justify-content: space-between;
+}
 
-nav ul  {display: flex;}
+nav ul {
+    display: flex;
+}
 
-nav ul li{list-style-type:none;}
+nav ul li {
+    list-style-type: none;
+}
 
-nav ul li a {text-decoration: none;
-text-transform: uppercase;
-margin:0 1em 0 1em;
-font-weight: bold;
+nav ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    margin: 0 1em 0 1em;
+    font-weight: bold;
 }
 
 
 #tanfi {
     background-image: url('img/html1.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    100%;
+    height: 900px;
+    color: #ffffff;
+    padding: 10em 0 0 1, 5em;
+    margin: top 4px;
 background-repeat: no-repeat;
 background-size: 100%; 100%;
 height: 900px;
@@ -43,51 +64,54 @@ margin: top 4px;
 
 #tanfi h2 {
     font-size: 250%;
-    font-family: 'Tourney'; Serif;
+    font-family: 'Tourney';
+    Serif;
 
 }
 
 #tanfi h3 {
     font-size: 250%;
     text-align: right;
-font-family: 'Tourney';
-color:#fff;
-    }
+    font-family: 'Tourney';
+    color: #fff;
+}
 
 
 
 
-    .button
+.button {
+    padding: 1em;
+    background: #c13433;
+    color: #fff;
+    text-decoration: none;
 
-    {padding: 1em;
-        background: #c13433;
-        color:#fff;
-        text-decoration: none;
+}
 
-    }
+#ada h1 {
+    margin: 0;
+    font-size: 200%;
+    padding: 1em;
+    font-family: 'Sixtyfour convergence';
 
-    #ada h1 {margin: 0;
-        font-size: 200%;
-        padding: 1em;
-        font-family: 'Sixtyfour convergence';
-        
-    }
-    #ada h2 {margin-top: 0;
-               
-        font-family: 'Sixtyfour convergence';
-        
-    }
+}
+
+#ada h2 {
+    margin-top: 0;
+
+    font-family: 'Sixtyfour convergence';
+
+}
 
 
 
 
-    #ada {
-margin: 0;
+#ada {
+    margin: 0;
     text-align: center;
-        background-color: rgb(34, 34, 144);
-        color: #fff;
+    background-color: rgb(34, 34, 144);
+    color: #fff;
 
-    }
+}
 
 #krisna {     
     display: flex; <!--Sokat kellett vele szórakozni-->
