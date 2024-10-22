@@ -20,7 +20,7 @@ a:visited {
 nav {
     display: flex;
     justify-content: space-between;
-}
+font-size: large;}
 
 nav ul {
     display: flex;
@@ -80,7 +80,7 @@ margin: top 4px;
 
 
 .button {
-    padding: 1em;
+    padding: 1em;1em;0 em
     background: #c13433;
     color: #fff;
     text-decoration: none;
@@ -129,7 +129,19 @@ margin: top 4px;
 #lopi
 {
 text-align: center;   <!--Nehezen végre megcsinálta meg-->
+padding: 2px;
 }
+
+.cimek
+
+{text-align: center;}
+
+.aloldal
+
+{text-align: left;
+margin:none;}
+
+
      
     
 
