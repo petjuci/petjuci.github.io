@@ -1,0 +1,19 @@
+#hu {
+
+    display: none;
+    
+    position: absolute;
+    
+    font-size: 14px;
+    
+    background-color: #eee;
+    
+    color: #404040;
+    
+    border:1px solid #999;
+    
+    padding: 7px;
+    
+    border-radius: 7px;
+    
+    }

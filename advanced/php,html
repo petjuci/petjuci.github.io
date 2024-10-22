@@ -16,6 +16,7 @@
     </nav>
 
     <h1 class="cimek">Szuper PHP tanfolyamok kedvező áron</h1>
+    <img src="img/php.jpg" alt="php">
     
 </body>
 </html>
