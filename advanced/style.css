@@ -114,9 +114,10 @@ margin: top 4px;
 }
 
 #krisna {     
-    display: flex; <!--Sokat kellett vele szórakozni-->
-      margin-right: 4em; <!--Sokat kell még  vele szórakozni-->
-    max-width:100%; <!--Nem csinálta meg-->
+    display: flex; 
+      margin-right: 4em; 
+      margin-left: 4em;
+    max-width:100%; 
 
 } 
 
